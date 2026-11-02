@@ -1,0 +1,18 @@
+[trusted]
+packages = [
+  "requests",
+  "numpy",
+  "lodash",
+  "react"
+]
+scopes = [
+  "@types"
+]
+hosts = [
+  "pypi.org",
+  "registry.npmjs.org"
+]
+
+[rules]
+enforce_single_lockfile = true
+require_ignore_scripts_for_js_installs = true
